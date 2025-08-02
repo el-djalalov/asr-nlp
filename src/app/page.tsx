@@ -55,13 +55,13 @@ export default function Home() {
 				</section>
 
 				{/* Footer */}
-				<footer className="mt-16">
+				<footer className="mt-8">
 					<Card>
-						<CardContent className="pt-6">
+						<CardContent className="pt-2">
 							<div className="text-center text-gray-600">
 								<p className="text-sm">
 									Built with Next.js, shadcn/ui, Tailwind CSS, Web Speech API,
-									and Compromise NLP
+									and Compromise/Natural NLP
 								</p>
 								<p className="text-xs mt-2 text-gray-500">
 									Note: Speech recognition works best in Chrome, Edge, and other

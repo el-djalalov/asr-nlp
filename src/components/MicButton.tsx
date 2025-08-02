@@ -152,19 +152,18 @@ export default function MicButton({
 					disabled={!!error}
 					size="lg"
 					className={cn(
-						"w-16 h-16 rounded-full transition-all duration-200",
+						"w-16 h-16 rounded-full transition-all duration-200 p-0",
 						listening
 							? "bg-red-500 hover:bg-red-600 scale-110"
 							: "bg-blue-500 hover:bg-blue-600 hover:scale-105"
 					)}
 				>
 					{listening ? (
-						<MicOff className="w-6 h-6" />
+						<MicOff style={{ width: "30px", height: "30px" }} />
 					) : (
-						<Mic className="w-6 h-6" />
+						<Mic style={{ width: "30px", height: "30px" }} />
 					)}
 				</Button>
-
 				<div className="text-center">
 					{listening && (
 						<Badge variant="destructive" className="animate-pulse">
